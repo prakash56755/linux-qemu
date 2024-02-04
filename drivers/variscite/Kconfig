@@ -1,0 +1,16 @@
+menuconfig VARISCITE
+	tristate "Variscite Drivers"
+	help
+	  This enables the external peripherals drivers for
+	  variscite modules.
+
+	  If unsure, choose N.
+
+if VARISCITE
+
+config VAR_PLAT_DRIVER
+	tristate "Simple platform driver"
+	help
+	  Say Y here to enable the simple var platform driver.
+
+endif

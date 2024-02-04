@@ -269,6 +269,11 @@
 		};
 	};
 
+	var-interview-device {
+		compatible = "interview,challenge";
+		interview-name = "Variscite Demo";
+	};
+
 	pl061@9030000 {
 		phandle = <0x8007>;
 		clock-names = "apb_pclk";
